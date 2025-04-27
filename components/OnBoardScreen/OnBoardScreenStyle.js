@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
         flex: 1,
         height: '100%',
         color: '#F5F5F5',
+        backgroundColor: '#333333',
         fontFamily: 'Mont',
     },
     pickerItem: {
