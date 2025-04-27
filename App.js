@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import OnBoardingScreen from './components/OnBoardScreen/OnBoardScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      
+     <StatusBar style="auto" />
+      <OnBoardingScreen />
+      {/* <Button title="Submit" onPress={handleSubmit} /> */}
     </View>
   );
 }
@@ -13,8 +16,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#111',
     alignItems: 'center',
-    justifyContent: 'center',
+
+    
   },
 });
