@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 import { Picker } from '@react-native-picker/picker';
-import  styles from './OnBoardScreenStyle'
+import styles from './OnBoardScreenStyle'
 
 
 export default function OnBoardingScreen() {
@@ -13,10 +13,10 @@ export default function OnBoardingScreen() {
 
     const groupOptions = ['Solo', 'Couple', 'Family', 'Friends'];
     const groupIconMap = {
-        Solo: 'user',           // a single user icon
-        Couple: 'heart',          // heart for couple
-        Family: 'users',          // group icon
-        Friends: 'users'           // same group icon for friends
+        Solo: 'user',           
+        Couple: 'heart',         
+        Family: 'users',         
+        Friends: 'users'           
     };
     const handleSubmit = () => {
         console.log('Destination:', destination);
@@ -86,7 +86,7 @@ export default function OnBoardingScreen() {
                                     >
                                         <View style={styles.groupContent}>
                                             <Icon
-                                                name={groupIconMap[option]}           // ← now this exists
+                                                name={groupIconMap[option]}        
                                                 size={18}
                                                 color={groupType === option ? '#fff' : '#aaa'}
                                                 style={styles.groupIcon}
