@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { useState } from 'react'; // import useState
-import OnBoardingScreen from './components/OnBoardScreen/OnBoardScreen';
-import Dashboard from './components/dashboard/Dashboard';
+import OnBoardingScreen from './Screens/OnBoardScreen/OnBoardScreen';
+import Dashboard from './Screens/dashboard/Dashboard';
 
 export default function App() {
   
@@ -10,7 +10,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <OnBoardingScreen/>
+      <Dashboard/>
     </View>
   );
 }
