@@ -1,22 +1,20 @@
-1. Onboarding Flow (Completed)
-    ![App Screenshot](assets/OnBoardScreen.jpg)
-    Purpose: Introduce the app and collect initial user input.
+# Travel Planning App
 
-   
+This project is focused on building a **Personalized Travel Planning App**.
 
-   Destination: The place the user plans to visit.
+## Features
 
-   Duration: How long the trip will last.
+### Task 1: Onboarding Flow ✅ (Completed)
+- Designed a screen to introduce the app and collect user input:
+  - **Destination**
+  - **Duration of the trip**
+  - **Group type** (Solo, Couple, Family, Friends)
 
-   Group Type: Solo, Couple, Family, or Friends.
+### Task 2: Main Dashboard ⚙️ (In Progress)
+- Designed the initial layout for the main dashboard where users can view:
+  - **Trip Summary** (Transportation, Accommodation, and Activities)
+- **Note**: This task is incomplete, and the full functionality is still being worked on.
 
-2. Main Dashboard (Partially Completed)
-     ![App Screenshot](assets/Dashboard.jpg)
-   
-    Purpose: Display a trip summary with detailed sections:
+## Results
 
-   Transportation: Information on how the user will travel.
-
-   Accommodation: Where the user will stay.
-
-   Activities: List of things to do during the trip.
+The final design results and screens can be found in the **`assets`** folder.
